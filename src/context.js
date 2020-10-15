@@ -37,7 +37,7 @@ function RoomsProvider({ children }) {
     return tempItems;
   };
 
-  const sortedRooms = () => {};
+  // const sortedRooms = () => {};
 
   const getRoom = (slug) => {
     let tempRooms = [...state.rooms];
